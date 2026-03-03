@@ -2,18 +2,16 @@
 
 ## Release Note
 
-- [Release Note](#ntd-agg-release-note)
+- [Release Note](#ggd-wp-release-note)
 
 ## Design
 
-- [Version 1.0.0](#ntd-agg-design)
+- [Version 1.0.0](#ggd-wp-design)
 
 ## Installation
 
-- [Installation Guide](#ntd-agg-installation)
+- [Installation Guide](#ggd-wp-installation)
 
 ## Metadata Reference
 
-- [Version 1.0.0](https://packages.dhis2.org/en/NTD_AGG/1.0.0/DHIS2.41/NTD_AGG_COMPLETE_1.0.0_DHIS2.41.xlsx)
-
-## Resources
+- [Version 1.0.0](https://packages.dhis2.org/en/GGD_WP/1.0.0/DHIS2.41/GGD_WP_COMPLETE_1.0.0_DHIS2.41.xlsx)
