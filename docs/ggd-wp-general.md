@@ -16,6 +16,7 @@ WorldPop Global2 (released 2025-2026) provides global annual population estimate
 The figure below illustrates a detailed view of the dataset at city level, highlighting its gridded structure. Additional information about the dataset and methodology is available on the WorldPop website: [here](https://www.worldpop.org/blog/worldpop-global2-global-high-resolution-population-estimates-for-2015-2030/). 
 
 ![Figure 1](resources/images/GGD_WP_1.png)
+
 _Gridded population data. Adapted from WorldPop._
 
 
@@ -38,6 +39,7 @@ The extraction and aggregation process is performed through Google Earth Engine 
 The figure below summarises this extraction workflow.
 
 ![Figure 2](resources/images/GGD_WP_2.png)
+
 _Gridded data extraction by polygon. Adapted from Saldanha et al._
 
 
