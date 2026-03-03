@@ -4,7 +4,7 @@
 
 ### Purpose
 
-This metadata package defines a minimal aggregate data structure in DHIS2 to support the automated import of population estimates derived from WorldPop datasets using the Import/Export app.
+This metadata package defines a minimal aggregate data structure in DHIS2 to support the automated import of population estimates derived from WorldPop datasets using the Import/Export app (v101.3.1 or higher).
 
 The package provides the required metadata to store total population counts as well as population disaggregated by sex and age groups. This enables the integration of WorldPop Global2 population estimates into DHIS2 analytics.
 
