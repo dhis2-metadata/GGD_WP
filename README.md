@@ -1,2 +1,2 @@
-# NTD_AGG
-Neglected Tropical Diseases
+# GGD_WP
+WorldPop Global 2
