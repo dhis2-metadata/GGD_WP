@@ -1,16 +1,12 @@
-# Neglected Tropical Diseases
+# WorldPop Global2
 
 ## Release Note
 
 - [Release Note](#ggd-wp-release-note)
 
-## Design
+## Design and Installation
 
-- [Version 1.0.0](#ggd-wp-design)
-
-## Installation
-
-- [Installation Guide](#ggd-wp-installation)
+- [Version 1.0.0](#ggd-wp-general)
 
 ## Metadata Reference
 

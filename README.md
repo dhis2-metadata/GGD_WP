@@ -1,2 +1,2 @@
 # GGD_WP
-WorldPop Global 2
+WorldPop Global2
