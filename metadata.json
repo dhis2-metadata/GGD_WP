@@ -1,0 +1,1507 @@
+{
+  "package": {
+    "code": "WP",
+    "description": "WP",
+    "lastUpdated": "20260304T000000",
+    "locale": "en",
+    "name": "WP_G2_AGG_DHIS2-en",
+    "type": "AGG",
+    "version": "1.0.0"
+  },
+  "userGroups": [
+    {
+      "code": "WP_ACCESS",
+      "id": "hKPX7o3vE5r",
+      "name": "WorldPop - Access",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_ADMIN",
+      "id": "MCAbKYj9sCK",
+      "name": "WorldPop - Admin",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "categoryOptions": [
+    {
+      "code": "WP_F",
+      "name": "Female (WP)",
+      "shortName": "Female (WP)",
+      "formName": "Female",
+      "id": "cRA695bTb2f",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_M",
+      "name": "Male (WP)",
+      "shortName": "Male (WP)",
+      "formName": "Male",
+      "id": "zxb5iR7pi0i",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_00",
+      "name": "00-01 years (WP)",
+      "shortName": "00-01 years (WP)",
+      "formName": "00-01 years",
+      "id": "TBfMs3QwqUP",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_01",
+      "name": "01-04 years (WP)",
+      "shortName": "01-04 years (WP)",
+      "formName": "01-04 years",
+      "id": "umFuorlnfIZ",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_05",
+      "name": "05-09 years (WP)",
+      "shortName": "05-09 years (WP)",
+      "formName": "05-09 years",
+      "id": "RFLJ7nZ5nkn",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_10",
+      "name": "10-15 years (WP)",
+      "shortName": "10-15 years (WP)",
+      "formName": "10-15 years",
+      "id": "QBp9yViDBU2",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_15",
+      "name": "15-19 years (WP)",
+      "shortName": "15-19 years (WP)",
+      "formName": "15-19 years",
+      "id": "doj7F8PDtym",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_20",
+      "name": "20-25 years (WP)",
+      "shortName": "20-25 years (WP)",
+      "formName": "20-25 years",
+      "id": "NYb1RVTJ6uS",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_25",
+      "name": "25-29 years (WP)",
+      "shortName": "25-29 years (WP)",
+      "formName": "25-29 years",
+      "id": "beuSNXilQUa",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_30",
+      "name": "30-35 years (WP)",
+      "shortName": "30-35 years (WP)",
+      "formName": "30-35 years",
+      "id": "d28nCuVyDkt",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_35",
+      "name": "35-39 years (WP)",
+      "shortName": "35-39 years (WP)",
+      "formName": "35-39 years",
+      "id": "L5U9yCbo3u2",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_40",
+      "name": "40-45 years (WP)",
+      "shortName": "40-45 years (WP)",
+      "formName": "40-45 years",
+      "id": "xN0ulCy2Bn1",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_45",
+      "name": "45-49 years (WP)",
+      "shortName": "45-49 years (WP)",
+      "formName": "45-49 years",
+      "id": "SyAM6jCxRk4",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_50",
+      "name": "50-55 years (WP)",
+      "shortName": "50-55 years (WP)",
+      "formName": "50-55 years",
+      "id": "rHG9vb863PT",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_55",
+      "name": "55-59 years (WP)",
+      "shortName": "55-59 years (WP)",
+      "formName": "55-59 years",
+      "id": "cxFi1z2cB5e",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_60",
+      "name": "60-65 years (WP)",
+      "shortName": "60-65 years (WP)",
+      "formName": "60-65 years",
+      "id": "TXrQpiQFdtv",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_65",
+      "name": "65-69 years (WP)",
+      "shortName": "65-69 years (WP)",
+      "formName": "65-69 years",
+      "id": "Av8QtxzQwVV",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_70",
+      "name": "70-75 years (WP)",
+      "shortName": "70-75 years (WP)",
+      "formName": "70-75 years",
+      "id": "oCRfTfsrKe6",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_75",
+      "name": "75-79 years (WP)",
+      "shortName": "75-79 years (WP)",
+      "formName": "75-79 years",
+      "id": "MConSPTZHhe",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_80",
+      "name": "80-85 years (WP)",
+      "shortName": "80-85 years (WP)",
+      "formName": "80-85 years",
+      "id": "iRLEKk9OcZF",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_85",
+      "name": "85-89 years (WP)",
+      "shortName": "85-89 years (WP)",
+      "formName": "85-89 years",
+      "id": "LfVYxR0mBLm",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_90",
+      "name": "90 years and above (WP)",
+      "shortName": "90 years and above (WP)",
+      "formName": "90 years and above",
+      "id": "pauvORyZrRu",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "WP_A",
+      "name": "Age (WP)",
+      "shortName": "Age (WP)",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "TBfMs3QwqUP"
+        },
+        {
+          "id": "umFuorlnfIZ"
+        },
+        {
+          "id": "RFLJ7nZ5nkn"
+        },
+        {
+          "id": "QBp9yViDBU2"
+        },
+        {
+          "id": "doj7F8PDtym"
+        },
+        {
+          "id": "NYb1RVTJ6uS"
+        },
+        {
+          "id": "beuSNXilQUa"
+        },
+        {
+          "id": "d28nCuVyDkt"
+        },
+        {
+          "id": "L5U9yCbo3u2"
+        },
+        {
+          "id": "xN0ulCy2Bn1"
+        },
+        {
+          "id": "SyAM6jCxRk4"
+        },
+        {
+          "id": "rHG9vb863PT"
+        },
+        {
+          "id": "cxFi1z2cB5e"
+        },
+        {
+          "id": "TXrQpiQFdtv"
+        },
+        {
+          "id": "Av8QtxzQwVV"
+        },
+        {
+          "id": "oCRfTfsrKe6"
+        },
+        {
+          "id": "MConSPTZHhe"
+        },
+        {
+          "id": "iRLEKk9OcZF"
+        },
+        {
+          "id": "LfVYxR0mBLm"
+        },
+        {
+          "id": "pauvORyZrRu"
+        }
+      ],
+      "id": "wPAr593IbnP",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_S",
+      "name": "Sex (WP)",
+      "shortName": "Sex (WP)",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "zxb5iR7pi0i"
+        }
+      ],
+      "id": "eW4CyFyzx1Y",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "categoryCombos": [
+    {
+      "code": "WP_SA",
+      "name": "Sex/Age (WP)",
+      "categories": [
+        {
+          "id": "eW4CyFyzx1Y"
+        },
+        {
+          "id": "wPAr593IbnP"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "C9Tfi9k1geD",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "code": "WP_F_00",
+      "name": "Female (WP), 00-01 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "TBfMs3QwqUP"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "MqOVFhJwn0U"
+    },
+    {
+      "code": "WP_F_01",
+      "name": "Female (WP), 01-04 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "umFuorlnfIZ"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "gZp9cCLEBsA"
+    },
+    {
+      "code": "WP_F_05",
+      "name": "Female (WP), 05-09 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "RFLJ7nZ5nkn"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "xqXZHQZDlk5"
+    },
+    {
+      "code": "WP_F_10",
+      "name": "Female (WP), 10-15 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "QBp9yViDBU2"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "SkyaFwbwPzH"
+    },
+    {
+      "code": "WP_F_15",
+      "name": "Female (WP), 15-19 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "doj7F8PDtym"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "T4Q3lhLdFg2"
+    },
+    {
+      "code": "WP_F_20",
+      "name": "Female (WP), 20-25 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "NYb1RVTJ6uS"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "SW95BuFYSEx"
+    },
+    {
+      "code": "WP_F_25",
+      "name": "Female (WP), 25-29 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "beuSNXilQUa"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "mlLmOPB64Ac"
+    },
+    {
+      "code": "WP_F_30",
+      "name": "Female (WP), 30-35 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "d28nCuVyDkt"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "uN4zH74LOwt"
+    },
+    {
+      "code": "WP_F_35",
+      "name": "Female (WP), 35-39 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "L5U9yCbo3u2"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "c2RagVPkY3y"
+    },
+    {
+      "code": "WP_F_40",
+      "name": "Female (WP), 40-45 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "xN0ulCy2Bn1"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Q9GUj6CMAJs"
+    },
+    {
+      "code": "WP_F_45",
+      "name": "Female (WP), 45-49 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "SyAM6jCxRk4"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "VcvAAQ3M2B0"
+    },
+    {
+      "code": "WP_F_50",
+      "name": "Female (WP), 50-55 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "rHG9vb863PT"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "hnQtHI5JlMo"
+    },
+    {
+      "code": "WP_F_55",
+      "name": "Female (WP), 55-59 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "cxFi1z2cB5e"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Va277dqDk7v"
+    },
+    {
+      "code": "WP_F_60",
+      "name": "Female (WP), 60-65 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "TXrQpiQFdtv"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "gNSSmpSNLu4"
+    },
+    {
+      "code": "WP_F_65",
+      "name": "Female (WP), 65-69 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "Av8QtxzQwVV"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "HbwOyeB5je7"
+    },
+    {
+      "code": "WP_F_70",
+      "name": "Female (WP), 70-75 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "oCRfTfsrKe6"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "xCQCE2IDPuy"
+    },
+    {
+      "code": "WP_F_75",
+      "name": "Female (WP), 75-79 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "MConSPTZHhe"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "MQbj3ldcpwx"
+    },
+    {
+      "code": "WP_F_80",
+      "name": "Female (WP), 80-85 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "iRLEKk9OcZF"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "xFTInFdAdVb"
+    },
+    {
+      "code": "WP_F_85",
+      "name": "Female (WP), 85-89 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "LfVYxR0mBLm"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "oKcBxCSbC2e"
+    },
+    {
+      "code": "WP_F_90",
+      "name": "Female (WP), 90 years and above (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "cRA695bTb2f"
+        },
+        {
+          "id": "pauvORyZrRu"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "tMVk91HpXLL"
+    },
+    {
+      "code": "WP_M_00",
+      "name": "Male (WP), 00-01 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "TBfMs3QwqUP"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Cm4nnjEWNpn"
+    },
+    {
+      "code": "WP_M_01",
+      "name": "Male (WP), 01-04 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "umFuorlnfIZ"
+        },
+        {
+          "id": "zxb5iR7pi0i"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "WtFr9AJa7xw"
+    },
+    {
+      "code": "WP_M_05",
+      "name": "Male (WP), 05-09 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "RFLJ7nZ5nkn"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "cXn3R9baFP3"
+    },
+    {
+      "code": "WP_M_10",
+      "name": "Male (WP), 10-15 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "QBp9yViDBU2"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "X2A80UXRefZ"
+    },
+    {
+      "code": "WP_M_15",
+      "name": "Male (WP), 15-19 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "doj7F8PDtym"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "jXERfsJ7CSp"
+    },
+    {
+      "code": "WP_M_20",
+      "name": "Male (WP), 20-25 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "NYb1RVTJ6uS"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "rlHpFhfOvvw"
+    },
+    {
+      "code": "WP_M_25",
+      "name": "Male (WP), 25-29 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "beuSNXilQUa"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "c6sljbOfMkt"
+    },
+    {
+      "code": "WP_M_30",
+      "name": "Male (WP), 30-35 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "d28nCuVyDkt"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "n5wkAwgyFc7"
+    },
+    {
+      "code": "WP_M_35",
+      "name": "Male (WP), 35-39 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "L5U9yCbo3u2"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "LKOC3qFk37n"
+    },
+    {
+      "code": "WP_M_40",
+      "name": "Male (WP), 40-45 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "xN0ulCy2Bn1"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Qh0uC3dmuKd"
+    },
+    {
+      "code": "WP_M_45",
+      "name": "Male (WP), 45-49 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "SyAM6jCxRk4"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "IkwUXVvvUNG"
+    },
+    {
+      "code": "WP_M_50",
+      "name": "Male (WP), 50-55 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "rHG9vb863PT"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "TtYdsPXCUwI"
+    },
+    {
+      "code": "WP_M_55",
+      "name": "Male (WP), 55-59 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "cxFi1z2cB5e"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Cv58H8usCC9"
+    },
+    {
+      "code": "WP_M_60",
+      "name": "Male (WP), 60-65 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "TXrQpiQFdtv"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "zmPCjIPG0ya"
+    },
+    {
+      "code": "WP_M_65",
+      "name": "Male (WP), 65-69 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "Av8QtxzQwVV"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "RSynEi9BVrr"
+    },
+    {
+      "code": "WP_M_70",
+      "name": "Male (WP), 70-75 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "oCRfTfsrKe6"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "QVczIgx0Pt0"
+    },
+    {
+      "code": "WP_M_75",
+      "name": "Male (WP), 75-79 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "MConSPTZHhe"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Z6TbSDs659b"
+    },
+    {
+      "code": "WP_M_80",
+      "name": "Male (WP), 80-85 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "iRLEKk9OcZF"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "QMJgdnXtxQA"
+    },
+    {
+      "code": "WP_M_85",
+      "name": "Male (WP), 85-89 years (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "LfVYxR0mBLm"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "okdqzZ6piUc"
+    },
+    {
+      "code": "WP_M_90",
+      "name": "Male (WP), 90 years and above (WP)",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "categoryOptions": [
+        {
+          "id": "zxb5iR7pi0i"
+        },
+        {
+          "id": "pauvORyZrRu"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "vlKLm9NNiy6"
+    }
+  ],
+  "dataElements": [
+    {
+      "code": "WP_G2_POP_TOT",
+      "name": "Population totals (WorldPop Global2)",
+      "shortName": "Population totals (WP G2)",
+      "description": "Population estimates from WorldPop Global2 model (https://www.worldpop.org/blog/worldpop-global2-global-high-resolution-population-estimates-for-2015-2030/) imported on: YYYY-MM-DD",
+      "formName": "Population totals",
+      "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [
+        2,
+        3,
+        4
+      ],
+      "zeroIsSignificant": true,
+      "id": "sMvAxWpiA9r",
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    },
+    {
+      "code": "WP_G2_POP_SAG",
+      "name": "Population sex/age groups (WorldPop Global2)",
+      "shortName": "Population sex/age groups (WP G2)",
+      "description": "Population estimates from WorldPop Global2 model (https://www.worldpop.org/blog/worldpop-global2-global-high-resolution-population-estimates-for-2015-2030/) imported on: YYYY-MM-DD",
+      "formName": "Population sex/age groups",
+      "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [
+        2,
+        3,
+        4
+      ],
+      "zeroIsSignificant": true,
+      "id": "eyfCGGxNa25",
+      "categoryCombo": {
+        "id": "C9Tfi9k1geD"
+      },
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "dataSets": [
+    {
+      "code": "WP_G2_POP",
+      "name": "Population (WorldPop Global2)",
+      "shortName": "Population (WP G2)",
+      "periodType": "Yearly",
+      "dataSetElements": [
+        {
+          "dataSet": {
+            "id": "P6nngn0Tz3Z"
+          },
+          "dataElement": {
+            "id": "eyfCGGxNa25"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "P6nngn0Tz3Z"
+          },
+          "dataElement": {
+            "id": "sMvAxWpiA9r"
+          }
+        }
+      ],
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "mobile": false,
+      "version": 1,
+      "expiryDays": 0.0,
+      "timelyDays": 0.0,
+      "notifyCompletingUser": false,
+      "openFuturePeriods": 5,
+      "openPeriodsAfterCoEndDate": 0,
+      "fieldCombinationRequired": false,
+      "validCompleteOnly": false,
+      "noValueRequiresComment": false,
+      "skipOffline": false,
+      "dataElementDecoration": false,
+      "renderAsTabs": false,
+      "renderHorizontally": false,
+      "compulsoryFieldsCompleteOnly": false,
+      "id": "P6nngn0Tz3Z",
+      "organisationUnits": [],
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rwrw----",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ],
+  "dataElementGroups": [
+    {
+      "code": "WP_G2_POP",
+      "name": "Population (WorldPop Global2)",
+      "shortName": "Population (WP G2)",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "dimensionItem": "ZhiAHzGv1OH",
+      "displayShortName": "Population (WP G2)",
+      "displayName": "Population (WorldPop Global2)",
+      "favorite": false,
+      "displayFormName": "Population (WorldPop Global2)",
+      "id": "ZhiAHzGv1OH",
+      "dataElements": [
+        {
+          "id": "eyfCGGxNa25"
+        },
+        {
+          "id": "sMvAxWpiA9r"
+        }
+      ],
+      "sharing": {
+        "external": false,
+        "public": "r-------",
+        "userGroups": {
+          "hKPX7o3vE5r": {
+            "access": "r-------",
+            "id": "hKPX7o3vE5r"
+          },
+          "MCAbKYj9sCK": {
+            "access": "rw------",
+            "id": "MCAbKYj9sCK"
+          }
+        }
+      }
+    }
+  ]
+}
